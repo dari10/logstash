@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TaxInvoice xmlns="urn:kr:or:kec:standard:Tax:ReusableAggregateBusinessInformationEntitySchemaModule:1:0">
+  <ExchangedDocument>
+    <ID>testId</ID>
+    <IssueDateTime>20140225205949</IssueDateTime>
+    <ReferencedDocument>
+      <ID>1</ID>
+    </ReferencedDocument>
+  </ExchangedDocument>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+<ds:XPath>not(self::*[name() = 'TaxInvoice'] | ancestor-or-self::*[name() = 'ExchangedDocument'] | ancestor-or-self::ds:Signature)</ds:XPath>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EuBJJwOjkqWJiBd/0/DHR5MFWY9KbCdRBqwdiH5Wmo8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sm0olKtDgQx04QOOGncLBFqwh3ogHPqaMnT5reIMm4PiUOGtHguTfFn31n9smkT/tosOK6SXMalz
+HRCLCLYIJt3xB31+roSvzCUgRFV2U+bLTyxwfF3NFeZYlO0OKIgfU1JBDMuSK3knYmWoeF4A4mEu
+lHdpJXP0/nXs7Wv5fcqOxMpxBGkUYsePvm9tM6HMGka/5q0uQXB8BuayPfglqDOp+G3rXunZ2L8f
+2hfELGs8o5l2jULNC7cmestmF2NULug3i6odBzb31hymsy8B1VdBOuqTu5y+VpoAhL0y+Z+7UGQz
+fKY5KgMXHyaS0sk27uur+LBFiO8TpF7KZ3GYqg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFcjCCBFqgAwIBAgIEBUuDRDANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJLUjESMBAGA1UE
+CgwJU2lnbktvcmVhMRUwEwYDVQQLDAxBY2NyZWRpdGVkQ0ExFjAUBgNVBAMMDVNpZ25Lb3JlYSBD
+QTIwHhcNMTQwMTE0MDYxODIxWhcNMTUwMTE3MTQ1OTU5WjBlMQswCQYDVQQGEwJLUjESMBAGA1UE
+CgwJU2lnbktvcmVhMQ8wDQYDVQQLDAbspp3qtowxDzANBgNVBAsMBuuPmeybkDEMMAoGA1UECwwD
+SFRTMRIwEAYDVQQDDAnrsLDsmIHspIAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA
+N1jtZdrYb7gmPMewyhrAFIPBj3wSQ9fFoQzUrjExWAurKK/ddJp8LYAChVUqO5vViRDSP1GvXOQb
+Hdj2mK9jtKagm6JEuV39QMc7W6hTEFgcgrnyT/0yvXCokGUbqJUazeFw1Z2QwAYwxmWT53r4sFLi
+gTY/eC3yFwhdGQ72EdXcPTc1VhQmKXRtfNHlYWzZTUQ/79tDQ40U+F8JARSUPgxyw/1G6KIFnyNC
+6wjQ7+AHyvWX1ZEfw4n/fG/ODnMFDPlAIOKWkJsS/8P9V83nF5X1l5YTuxwhfnlPv/fZ6PexbMKS
+SKwUwb+l21uLmykW1/+t+hLkE43hZrnWgQDpAgMBAAGjggI9MIICOTCBjwYDVR0jBIGHMIGEgBQn
+lpa+84TcWQFiJCPiGHvTQY0tQqFopGYwZDELMAkGA1UEBhMCS1IxDTALBgNVBAoMBEtJU0ExLjAs
+BgNVBAsMJUtvcmVhIENlcnRpZmljYXRpb24gQXV0aG9yaXR5IENlbnRyYWwxFjAUBgNVBAMMDUtJ
+U0EgUm9vdENBIDSCAhACMB0GA1UdDgQWBBTstYJgrZRx/CjYSExXxF32HP3XVDAOBgNVHQ8BAf8E
+BAMCBsAweQYDVR0gAQH/BG8wbTBrBgoqgxqMmkQFAQEJMF0wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuc2lnbmtvcmVhLmNvbS9jcHMuaHRtbDAsBggrBgEFBQcCAjAgHh7HdAAgx3jJncEcspQAIKz1
+x3jHeMmdwRzHhbLIsuQwaAYDVR0RBGEwX6BdBgkqgxqMmkQKAQGgUDBODAnrsLDsmIHspIAwQTA/
+BgoqgxqMmkQKAQEBMDEwCwYJYIZIAWUDBAIBoCIEIGsF0wrHD+d1UhLyfopgIh5WwwY1+WE0XnzS
+ZymibPvwMFoGA1UdHwRTMFEwT6BNoEuGSWxkYXA6Ly9kaXIuc2lnbmtvcmVhLmNvbTozODkvb3U9
+ZHA0cDUwNzMsb3U9QWNjcmVkaXRlZENBLG89U2lnbktvcmVhLGM9S1IwNQYIKwYBBQUHAQEEKTAn
+MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC5zaWdua29yZWEuY29tMA0GCSqGSIb3DQEBCwUAA4IB
+AQA1hWwYF9l+6ZctEtJhgUi6cc+CuIofjmGmAmkdnHImhr2pgM5Oq923cNYT+q0RtLNm4P2HOmyH
+pirnUXxjFHmRc92XyYxz617pWvBZzfOPcvS8sVh72zyGaYQPvISsjk8SmM2k84ie+3U1DTTBn4it
+oqsqENKtKK3qWNSxi3hLJB6Gy4AXH7WVq/MN530IHI2NmF8PZ7vVnbo1KZ18zbjq0WUd2qxmv8tn
+tWKdFlXaEuyizb+3V1oEUztLwmA7uxNnhRYdEJ1BoPQyJyNLchrgw4Ps4fXzrB/8Wel+yvn437nH
+tV+HzZRZndgPqJhP7UeOZmWBV1pVufrlfryIl4SG
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><TaxInvoiceDocument>
+    <IssueID>200908148888888800128861</IssueID>
+    <TypeCode>0101</TypeCode>
+    <DescriptionText>test-descrption</DescriptionText>
+    <IssueDateTime>20140225</IssueDateTime>
+    <PurposeCode>01</PurposeCode>
+  </TaxInvoiceDocument>
+  <TaxInvoiceTradeSettlement>
+    <InvoicerParty>
+      <ID>5765432200</ID>
+      <TypeCode>02</TypeCode>
+      <NameText><![CDATA[감영상사]]></NameText>
+      <ClassificationCode><![CDATA[test-class-code]]></ClassificationCode>
+      <SpecifiedPerson>
+        <NameText><![CDATA[sn]]></NameText>
+      </SpecifiedPerson>
+    </InvoicerParty>
+    <InvoiceeParty>
+      <ID>4235567300</ID>
+      <TypeCode>02</TypeCode>
+      <NameText><![CDATA[nameText]]></NameText>
+      <ClassificationCode><![CDATA[code]]></ClassificationCode>
+      <SpecifiedOrganization>
+        <BusinessTypeCode>01</BusinessTypeCode>
+      </SpecifiedOrganization>
+      <SpecifiedPerson>
+        <NameText><![CDATA[sn]]></NameText>
+      </SpecifiedPerson>
+    </InvoiceeParty>
+    <SpecifiedMonetarySummation>
+      <ChargeTotalAmount>11</ChargeTotalAmount>
+      <TaxTotalAmount>11</TaxTotalAmount>
+      <GrandTotalAmount>11</GrandTotalAmount>
+    </SpecifiedMonetarySummation>
+  </TaxInvoiceTradeSettlement>
+  <TaxInvoiceTradeLineItem>
+    <SequenceNumeric>1</SequenceNumeric>
+    <InvoiceAmount>1111111</InvoiceAmount>
+    <TotalTax>
+      <CalculatedAmount>1</CalculatedAmount>
+    </TotalTax>
+    <UnitPrice>
+      <UnitAmount>1</UnitAmount>
+    </UnitPrice>
+  </TaxInvoiceTradeLineItem>
+</TaxInvoice>
